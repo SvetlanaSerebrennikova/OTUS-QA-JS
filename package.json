@@ -1,0 +1,18 @@
+{
+  "name": "OTUS_2024_web_E2E_tests_Serebrennikova",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "headless-web3-provider": "^0.2.4"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
+
